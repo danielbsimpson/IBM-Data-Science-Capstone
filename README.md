@@ -24,15 +24,25 @@ Once the clusters were established, then the Foursquare API was used to pull ven
 ### Discussion
 With the bar charts for comparison we can identify within each Borough, the best option for each of the developer's properties.
 For instance, if we look at Cluster 1:
+
 •	Merton does not have a high frequency of Pubs compared to the cluster
+
 •	Barking and Dagenham does not have a high frequency of Pubs and Take away compared to the cluster
+
 •	Haringey does not have a high frequency of coffee shops and fitness centers compared to the cluster
+
 •	Waltham Forest does not have a high frequency of take away compared to the cluster
+
 •	Greenwich does not have a high frequency of European Restaurants and Grocery stores compared to the cluster
+
 •	Lewisham does not have a high frequency of Asian Restaurants and Fitness centers compared to the cluster
+
 •	Southwark does not have a high frequency of Take away and Asian Restaurants compared to the cluster
+
 •	Enfield does not have a high frequency of Take away and Asian Restaurants compared to the cluster
+
 •	Croydon does not have a high frequency of Fitness centers compared to the cluster
+
 This comparison can be made by easily comparing the bar charts of the borough and the Cluster that borough falls within. We could then make a recommendation for all of the 33 boroughs in London.
 
 

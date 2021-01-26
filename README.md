@@ -20,6 +20,7 @@ Geo data will be pulled using the Foursquare API. Web scraping will be used to g
 The exploratory data analysis for each data set can be found below. Once the data was collected it was all cleaned and stored into a single Data Frame. Some of the data came in different formats so this all had to be accounted for. Every time data was collected it was observed for missing values using the missingno library. Once all the data was collected and scaled, K-means algorithm was used to generate similar boroughs within London based upon the demographic, political, income, and age data collected.
 Once the clusters were established, then the Foursquare API was used to pull venue data within each neighborhood. The top frequently occurring venue types within each cluster were then compared to the top frequently occurring venues within each borough that fell within the respective cluster. Comparison was made to identify the most desirable venues to build within each borough.
 
+![](images/Borough_map.png)
 
 ### Discussion
 With the bar charts for comparison we can identify within each Borough, the best option for each of the developer's properties.

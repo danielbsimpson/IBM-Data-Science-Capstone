@@ -4,11 +4,16 @@ The goal of this project is to identify similar boroughs within the London area 
 ### Data: 
 For demographic, political, salary, and religious data, publicly open available data online will be gathered.
 •	[Borough names, political, Area, Population, and Co-ordinates data](https://en.wikipedia.org/wiki/List_of_London_boroughs)
+
 •	[Ethnicity data](https://en.wikipedia.org/wiki/Demography_of_London)
+
 •	[Age data](https://data.london.gov.uk/dataset/office-national-statistics-ons-population-estimates-borough)
+
 •	[Salary data](https://data.london.gov.uk/dataset/earnings-place-residence-borough)
 
+
 Geo data will be pulled using the Foursquare API. Web scraping will be used to gather population and demographic information for each borough within the greater London area.
+
 •	[Venue data](https://foursquare.com/)
 
 ### Methodology

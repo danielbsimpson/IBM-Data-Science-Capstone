@@ -56,7 +56,7 @@ For instance, if we look at Cluster 1:
 
 This comparison can be made by easily comparing the bar charts of the borough and the Cluster that borough falls within. We could then make a recommendation for all of the 33 boroughs in London.
 
-##### Comparison of a borough and the cluster it falls within:
+##### Comparison of a Merton and Cluster 1:
 ![](/Images/Borough_cluster_comparison.png)
 
 ### Conclusion

@@ -20,7 +20,17 @@ Geo data will be pulled using the Foursquare API. Web scraping will be used to g
 The exploratory data analysis for each data set can be found below. Once the data was collected it was all cleaned and stored into a single Data Frame. Some of the data came in different formats so this all had to be accounted for. Every time data was collected it was observed for missing values using the missingno library. Once all the data was collected and scaled, K-means algorithm was used to generate similar boroughs within London based upon the demographic, political, income, and age data collected.
 Once the clusters were established, then the Foursquare API was used to pull venue data within each neighborhood. The top frequently occurring venue types within each cluster were then compared to the top frequently occurring venues within each borough that fell within the respective cluster. Comparison was made to identify the most desirable venues to build within each borough.
 
+##### Mapping all the boroughs with lat/long:
 ![](/Images/Borough_map.png)
+
+##### London boroughs by popultion:
+![](/Images/Borough_population.png)
+
+##### London political party distribution:
+![](/Images/Political_img.png)
+
+##### Cluster Map:
+![](/Images/Clustter_map.png)
 
 ### Discussion
 With the bar charts for comparison we can identify within each Borough, the best option for each of the developer's properties.
@@ -46,6 +56,8 @@ For instance, if we look at Cluster 1:
 
 This comparison can be made by easily comparing the bar charts of the borough and the Cluster that borough falls within. We could then make a recommendation for all of the 33 boroughs in London.
 
+##### Comparison of a borough and the cluster it falls within:
+![](/Images/Borough_cluster_comparison.png)
 
 ### Conclusion
 The results show us the best venue types to open at each of the developers properties around London. Additional data could be collected on the residents of each Borough, along with building information on venues not listed (such as private office spaces), to help better improve the model. Overall, the results are easy to identify and this report would be a good first step in identifying what business venues we should place at the developer's buildings.
